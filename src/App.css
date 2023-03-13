@@ -1,3 +1,8 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 .App {
   text-align: center;
 }
@@ -36,3 +41,88 @@
     transform: rotate(360deg);
   }
 }
+h1{
+  font-size: 3rem;
+}
+.pallete{
+  margin-bottom: 2rem;
+}
+.selected-color-list{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+.palette-color{
+  list-style: none;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.chosen-color{
+  height: 3.5rem;
+  width: 3.5rem;
+  border-radius: .5rem;
+}
+.chosen-color-text{
+  display: flex;
+  gap: .5rem;
+  flex-flow: row nowrap;
+  align-items: center;
+  font-size: 1.5rem;
+}
+.delete-chosen-color:hover{
+  cursor: pointer;
+  color: gray;
+}
+.css-color-options{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+  gap: 1rem;
+}
+.color-options{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.colors-list{
+  height: 30rem;
+  overflow-y:scroll;
+  width: 25rem;
+}
+.color-option{
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  font-size: 1.5rem;
+  align-items:center;
+}
+
+.color{
+  height: 2rem;
+  width: 2rem;
+  border-radius: .5rem;
+  margin-bottom: 2rem;
+}
+.color:hover{
+  cursor: pointer;
+}
+.selected-option{
+  width: 20rem;
+  height: 20rem;
+  border-radius: 1rem;
+  background-color: azure;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.heart{
+  fill: red;
+  width: 6rem;
+  height: 6rem;
+}
+
